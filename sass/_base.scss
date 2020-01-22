@@ -1,0 +1,49 @@
+// COLORS
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+
+$dark-blue: hsl(234, 12%, 34%);
+$gray: hsl(229, 6%, 66%);
+$gray-light: hsl(0, 0%, 98%);
+$white: #fff;
+
+
+// FONTS
+$poppins: 'Poppins', sans-serif;
+
+//SHADOW
+$card-shadow: 0 .5rem 2rem rgba($dark-blue, .25);
+
+// BP (responsive)
+$bp-tablette: 1200px;
+$bp-mobile: 900px;
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+
+    @media only screen and (max-width: $bp-mobile){
+        font-size: 55%;
+    }
+}
+
+body{
+    box-sizing: border-box;
+    font-size: 1.5rem; //15px
+    font-family: $poppins;
+    background-color: $gray-light;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr .3fr;
+    grid-gap: 2rem;    
+}

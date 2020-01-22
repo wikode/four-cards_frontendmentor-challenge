@@ -1,0 +1,39 @@
+.heading{
+    
+
+    &-1{
+        font-size: 4rem;
+        color: $dark-blue;
+        font-weight: 600;
+    }
+
+    &-2{
+        font-size: 3rem;
+        color: $gray;
+        font-weight: 200;
+    }
+
+    &-3{
+        font-size: 2rem;
+        color: $dark-blue;
+        font-weight: 600;
+        margin-bottom: .5rem;
+    }
+}
+
+.header__text,
+.card__text--description,
+.attribution{
+    font-size: 1.5rem;
+    color: $gray;
+    font-weight: 400;
+}
+
+.attribution{
+    text-align: center;
+
+    a{
+        text-decoration: none;
+        color: $dark-blue;
+    }
+}
